@@ -52,7 +52,7 @@ const Contact = ({}) => {
       />
 
       <div className="grid grid-cols-2 grid-flow-col gap-4  ">
-        <div className="px-8 rounded-2xl justify-center items-center bg-white text-danger shadow-lg">
+        <div className="px-8 rounded-2xl justify-center items-center bg-white text-black shadow-lg">
           <h2 className="mt-20 text-center text-success">
             {`Lets connect: We are here to help, and we would love to hear form you. Whether you have a question or just want to chat`}
           </h2>
