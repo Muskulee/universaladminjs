@@ -28,7 +28,6 @@ import {
   Link,
 } from "@nextui-org/react";
 import { useSelector } from "react-redux";
-import { CgMail } from "react-icons/cg";
 import { BiLock, BiUserCircle } from "react-icons/bi";
 import { MdEmail } from "react-icons/md";
 

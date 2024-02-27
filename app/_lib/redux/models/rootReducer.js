@@ -1,6 +1,6 @@
 // This combines all root reducers
 
-import { combineReducers } from "redux";
+import { combineReducers } from "@reduxjs/toolkit";
 
 import { reducer as userReducer } from "./user/reducers";
 import { reducer as onStartReducer } from "./start/reducers";
