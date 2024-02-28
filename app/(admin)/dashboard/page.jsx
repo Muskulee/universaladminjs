@@ -29,7 +29,6 @@ import {
   columns,
 } from "./../../_lib/api/fakeData";
 import DashCard from "@/app/_lib/smalls/DashCard";
-import { useSelector } from "react-redux";
 
 const Dashboard = () => {
   const [selectedKeys, setSelectedKeys] = useState(new Set());
