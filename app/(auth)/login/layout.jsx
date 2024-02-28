@@ -54,7 +54,14 @@ const LoginLayout = ({ children }) => {
               </li> */}
             </ul>
             <div className="">
-              <Image src="/assets/images/login.svg" alt="Login Image" />
+              <div className="" style={{ width: "100%", height: "100%" }}>
+                <Image
+                  src="/assets/images/login.svg"
+                  alt="Login Image"
+                  layout="fill"
+                  objectFit="contain"
+                />
+              </div>
             </div>
             <div>
               <div className="text-center max-w-lg px-1.5 m-auto">

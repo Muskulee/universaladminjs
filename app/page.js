@@ -20,7 +20,7 @@ const Home = () => {
         <p className="mb-6 px-20 text-3xl font-bold leading-snug text-danger sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
           Edit. Reuse. Launch
         </p>
-
+        {/* Action Buttons */}
         <div className="flex gap-4 items-center">
           <Button
             variant="solid"

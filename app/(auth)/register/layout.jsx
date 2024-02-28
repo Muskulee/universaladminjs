@@ -44,8 +44,13 @@ const SigupLayout = ({ children }) => {
                 <img src="assets/images/dotted.svg" alt="" />
               </li> */}
             </ul>
-            <div className="mb-10">
-              <Image src="assets/images/register.svg" alt="Register Image" />
+            <div className="mb-10" style={{ width: "100%", height: "90%" }}>
+              <Image
+                src="/assets/images/register.svg"
+                alt="Register Image"
+                layout="fill"
+                objectFit="contain"
+              />
             </div>
             <div>
               <div className="text-center max-w-lg px-1.5 m-auto">
