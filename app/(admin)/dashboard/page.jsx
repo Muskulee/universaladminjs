@@ -29,12 +29,19 @@ import {
   columns,
 } from "./../../_lib/api/fakeData";
 import DashCard from "@/app/_lib/smalls/DashCard";
+import { useSelector } from "react-redux";
 
 const Dashboard = () => {
   const [selectedKeys, setSelectedKeys] = useState(new Set());
   const [selectedTransactions, setSelectedTransactions] = useState(new Set());
   const [page, setPage] = useState(1);
   const rowsPerPage = 4;
+
+  const statusColorMap = {
+    active: "success",
+    paused: "danger",
+    vacation: "warning",
+  };
 
   const pages = Math.ceil(testTransactions.length / rowsPerPage);
 
@@ -54,12 +61,6 @@ const Dashboard = () => {
 
   const renderCell = useCallback((user, columnkey) => {
     const cellValue = user[columnkey];
-
-    const statusColorMap = {
-      active: "success",
-      paused: "danger",
-      vacation: "warning",
-    };
 
     switch (columnkey) {
       case "name":
@@ -115,11 +116,6 @@ const Dashboard = () => {
   const renderTransaction = useCallback((transaction, columnkey) => {
     const cellValue = transaction[columnkey];
 
-    const statusColorMap = {
-      active: "success",
-      paused: "danger",
-      vacation: "warning",
-    };
     switch (columnkey) {
       case "name":
         return (
@@ -320,7 +316,10 @@ const Dashboard = () => {
         {/* On Small Screens */}
         <div className="sm:block lg:hidden">
           {/* Content for small screens (stacked) */}
-          <p>Content for Small Screens</p>
+          {/* <p>
+            Content for Small Screens
+
+          </p> */}
         </div>
       </div>
     </>
