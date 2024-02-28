@@ -5,7 +5,7 @@ import React, { ReactNode } from "react";
 const LoginLayout = ({ children }) => {
   return (
     <>
-      <div className="bg-white dark:bg-darkblack-500 min-h-screen">
+      <div className="bg-white min-h-screen">
         <div className="flex flex-col lg:flex-row justify-between">
           {/* Left */}
           <div className="lg:w-1/2 px-5 xl:pl-12 pt-10">
@@ -41,7 +41,7 @@ const LoginLayout = ({ children }) => {
           </div>
           {/* Right */}
           {/* <!-- Right --> */}
-          <div className="lg:w-1/2 lg:block hidden bg-[#F6FAFF] dark:bg-darkblack-600 p-20 relative">
+          <div className="lg:w-1/2 lg:block hidden bg-[#F6FAFF] p-20 relative">
             <ul>
               {/* <li className="absolute top-10 left-8">
                 <img src="/assets/images/square.svg" alt="" />
