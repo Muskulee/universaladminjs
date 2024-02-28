@@ -66,7 +66,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center  mx-auto -mt-10">
+      <div className="flex justify-center items-center  mx-auto -mt-10 bg-[#F6FAFF]">
         <div className="grid grid-cols-12 gap-2 px-8 w-full">
           {features.map((item, index) => {
             return (

@@ -17,7 +17,7 @@ const Login = () => {
       <div className="flex flex-col md:flex-row gap-4">
         <Link
           href="#"
-          className="inline-flex justify-center items-center gap-x-2 border border-bgray-300 dark:border-darkblack-400 rounded-lg px-6 py-4 text-base text-bgray-900 dark:text-white font-medium"
+          className="inline-flex justify-center items-center gap-x-2 border border-bgray-300  rounded-lg px-6 py-4 text-base text-bgray-900  font-medium"
         >
           <svg
             width="23"
