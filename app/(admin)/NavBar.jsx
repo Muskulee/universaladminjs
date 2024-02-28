@@ -30,7 +30,7 @@ const NavItem = ({ to, value, closed, Icon }) => {
   );
 };
 
-export default function MyNavbar({ closed, setLogOut, logo }) {
+export default function MyNavbar({ logo }) {
   return (
     <>
       <nav className="bg-white dark:bg-darkblack-500 ">
