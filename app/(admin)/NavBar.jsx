@@ -47,7 +47,8 @@ export default function MyNavbar({ logo }) {
             <ListboxItem
               key="dashboard"
               href="/dashboard"
-              color="black"
+              className="text-black"
+              color="danger"
               shouldHighlightOnFocus
               startContent={<BiSolidDashboard size={24} />}
             >
@@ -58,8 +59,9 @@ export default function MyNavbar({ logo }) {
               key="setting"
               href="/setting"
               shouldHighlightOnFocus
+              className="text-black"
               startContent={<MdOutlineSettingsApplications size={24} />}
-              color="black"
+              color="danger"
             >
               Setting
             </ListboxItem>
