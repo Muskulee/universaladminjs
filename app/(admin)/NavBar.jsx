@@ -33,7 +33,7 @@ const NavItem = ({ to, value, closed, Icon }) => {
 export default function MyNavbar({ logo }) {
   return (
     <>
-      <nav className="bg-white dark:bg-darkblack-500 ">
+      <nav className="bg-white  ">
         <div className="flex justify-center mt-2 ">
           <Link href="/">{logo}</Link>
         </div>

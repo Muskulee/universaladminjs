@@ -47,7 +47,7 @@ const DashBoardLayout = ({ children }) => {
 
   return (
     <>
-      <div className="flex bg-white dark:bg-darkblack-500">
+      <div className="flex bg-white">
         <div
           className={
             getNavWidth() +
