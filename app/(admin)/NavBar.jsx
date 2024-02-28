@@ -34,7 +34,9 @@ export default function MyNavbar({ logo }) {
   return (
     <>
       <nav className="bg-white dark:bg-darkblack-500 ">
-        <div className="flex justify-center mt-2 ">{logo}</div>
+        <div className="flex justify-center mt-2 ">
+          <Link href="/">{logo}</Link>
+        </div>
 
         <ListboxWrapper>
           <Listbox
@@ -45,6 +47,7 @@ export default function MyNavbar({ logo }) {
             <ListboxItem
               key="dashboard"
               href="/dashboard"
+              color="black"
               shouldHighlightOnFocus
               startContent={<BiSolidDashboard size={24} />}
             >
@@ -56,6 +59,7 @@ export default function MyNavbar({ logo }) {
               href="/setting"
               shouldHighlightOnFocus
               startContent={<MdOutlineSettingsApplications size={24} />}
+              color="black"
             >
               Setting
             </ListboxItem>
