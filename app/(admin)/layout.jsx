@@ -245,7 +245,7 @@ const DashBoardLayout = ({ children }) => {
                   Close
                 </Button>
                 <Button color="secondary" onPress={onClose}>
-                  Sign in
+                  Create
                 </Button>
               </ModalFooter>
             </>
