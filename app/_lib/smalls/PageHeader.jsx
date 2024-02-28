@@ -1,6 +1,6 @@
 const PageHeader = ({ headerTitle, headerSubTitle }) => {
   return (
-    <div className="flex flex-col items-center justify-center ">
+    <div className="flex flex-col items-center justify-center bg-[#F6FAFF]">
       <h1 className="text-6xl font-bold text-center mb-8 mt-20 ">
         {headerTitle}
       </h1>

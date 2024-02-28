@@ -6,7 +6,7 @@ import { Accordion, AccordionItem } from "@nextui-org/react";
 import { useEffect, useState } from "react";
 
 const getRandomFAQ = () => {
-  const faqCount = Math.floor(Math.random() * 10) + 1; // Generate between 1 and 5 FAQs
+  const faqCount = Math.floor(Math.random() * 10) + 1; 
   const faqs = [];
 
   for (let i = 1; i <= faqCount; i++) {
