@@ -1,6 +1,5 @@
 "use client";
 
-import { ReactNode } from "react";
 import GeneralNav from "../_lib/smalls/GeneralNav";
 
 const FrontLayout = ({ children }) => {
